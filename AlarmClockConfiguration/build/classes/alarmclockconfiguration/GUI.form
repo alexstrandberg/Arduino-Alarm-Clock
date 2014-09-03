@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="tempButtonGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="hourFormatButtonGroup">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Alarm Clock Configuration"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="programmingModeToggleButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="displayLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="displayTypeComboBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="fahrenheitRadioButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="celsiusRadioButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="hourFormat12RadioButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="hourFormat24RadioButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane1" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="serialTextField" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="serialSendButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="brightnessLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="brightnessSlider" min="-2" pref="331" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="playSongLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="playSongNumber" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="playSongLabel2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="playSongButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="mondayAlarmLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                                      <Component id="mondayAlarmToggleButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="mondayAlarmTime" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="mondayTrackLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="mondayAlarmSong" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="mondayTrackLabel2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="mondayAlarmUpdateButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="playMondaySongButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="tuesdayAlarmLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                                      <Component id="tuesdayAlarmToggleButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tuesdayAlarmTime" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tuesdayTrackLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tuesdayAlarmSong" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tuesdayTrackLabel2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tuesdayAlarmUpdateButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="playTuesdaySongButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="wednesdayAlarmLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                                      <Component id="wednesdayAlarmToggleButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="wednesdayAlarmTime" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="wednesdayTrackLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="wednesdayAlarmSong" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="wednesdayTrackLabel2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="wednesdayAlarmUpdateButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="playWednesdaySongButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="thursdayAlarmLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                                      <Component id="thursdayAlarmToggleButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="thursdayAlarmTime" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="thursdayTrackLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="thursdayAlarmSong" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="thursdayTrackLabel2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="thursdayAlarmUpdateButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="playThursdaySongButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="fridayAlarmLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                                      <Component id="fridayAlarmToggleButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="fridayAlarmTime" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="fridayTrackLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="fridayAlarmSong" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="fridayTrackLabel2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="fridayAlarmUpdateButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="playFridaySongButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="saturdayAlarmLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                                      <Component id="saturdayAlarmToggleButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="saturdayAlarmTime" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="saturdayTrackLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="saturdayAlarmSong" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="saturdayTrackLabel2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="saturdayAlarmUpdateButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="playSaturdaySongButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="printTrackListButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                                      <Component id="synchronizeTimeButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="printCurrentDataButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="sundayAlarmLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="sundayAlarmToggleButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="sundayAlarmTime" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="sundayTrackLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="sundayAlarmSong" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="sundayTrackLabel2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="sundayAlarmUpdateButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="playSundaySongButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="programmingModeToggleButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="displayTypeComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="displayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="fahrenheitRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="celsiusRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hourFormat12RadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hourFormat24RadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="brightnessSlider" min="-2" max="-2" attributes="0"/>
+                          <Component id="brightnessLabel" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="printTrackListButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="synchronizeTimeButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="printCurrentDataButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="playSongButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="playSongLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="playSongNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="playSongLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="sundayAlarmUpdateButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="playSundaySongButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sundayAlarmLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sundayAlarmToggleButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sundayAlarmTime" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sundayTrackLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sundayAlarmSong" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sundayTrackLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="mondayAlarmUpdateButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="playMondaySongButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="mondayAlarmLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="mondayAlarmToggleButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="mondayAlarmTime" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="mondayTrackLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="mondayAlarmSong" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="mondayTrackLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="tuesdayAlarmUpdateButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="playTuesdaySongButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tuesdayAlarmLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tuesdayAlarmToggleButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tuesdayAlarmTime" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tuesdayTrackLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tuesdayAlarmSong" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tuesdayTrackLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="wednesdayAlarmUpdateButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="playWednesdaySongButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="wednesdayAlarmLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="wednesdayAlarmToggleButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="wednesdayAlarmTime" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="wednesdayTrackLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="wednesdayAlarmSong" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="wednesdayTrackLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="thursdayAlarmUpdateButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="playThursdaySongButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="thursdayAlarmLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="thursdayAlarmToggleButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="thursdayAlarmTime" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="thursdayTrackLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="thursdayAlarmSong" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="thursdayTrackLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="fridayAlarmUpdateButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="playFridaySongButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="fridayAlarmLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="fridayAlarmToggleButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="fridayAlarmTime" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="fridayTrackLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="fridayAlarmSong" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="fridayTrackLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="saturdayAlarmUpdateButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="playSaturdaySongButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="saturdayAlarmLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="saturdayAlarmToggleButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="saturdayAlarmTime" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="saturdayTrackLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="saturdayAlarmSong" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="saturdayTrackLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="serialTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="serialSendButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="300" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="serialTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="serialTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="serialSendButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Send"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="serialSendButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="serialTextArea">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JComboBox" name="displayTypeComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="Temp"/>
+            <StringItem index="1" value="Date"/>
+            <StringItem index="2" value="None"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="displayTypeComboBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="displayLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Display Type:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="fahrenheitRadioButton">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="tempButtonGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Fahrenheit"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fahrenheitRadioButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="celsiusRadioButton">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="tempButtonGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Celsius"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="celsiusRadioButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="hourFormat12RadioButton">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="hourFormatButtonGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="12-Hour Format"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hourFormat12RadioButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="hourFormat24RadioButton">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="hourFormatButtonGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="24-Hour Format"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hourFormat24RadioButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSlider" name="brightnessSlider">
+      <Properties>
+        <Property name="majorTickSpacing" type="int" value="1"/>
+        <Property name="maximum" type="int" value="15"/>
+        <Property name="paintLabels" type="boolean" value="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="brightnessSliderStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="brightnessLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Brightness:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="programmingModeToggleButton">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="Programming Mode"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="programmingModeToggleButtonItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sundayAlarmLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sunday Alarm:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="sundayAlarmToggleButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enabled"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="sundayAlarmToggleButtonItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="sundayAlarmTime">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="00:00"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="sundayAlarmTimeKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JFormattedTextField(new SimpleDateFormat(&quot;HH:mm&quot;))"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="sundayAlarmSong">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="001"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="sundayAlarmSongKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JFormattedTextField(f)"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="NumberFormat f = new DecimalFormat(&quot;000&quot;);&#xa;f.setMaximumIntegerDigits(3);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sundayTrackLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="track"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sundayTrackLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=".mp3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="sundayAlarmUpdateButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sundayAlarmUpdateButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="playSundaySongButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Play Song"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="playSundaySongButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="playSongLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Play Song: track"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="playSongNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="001"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JFormattedTextField(f)"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="playSongLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=".mp3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="playSongButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Play"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="playSongButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="playMondaySongButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Play Song"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="playMondaySongButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="mondayAlarmUpdateButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mondayAlarmUpdateButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="mondayTrackLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=".mp3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="mondayAlarmSong">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="001"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="mondayAlarmSongKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JFormattedTextField(f)"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="mondayTrackLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="track"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="mondayAlarmTime">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="00:00"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="mondayAlarmTimeKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JFormattedTextField(new SimpleDateFormat(&quot;HH:mm&quot;))"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="mondayAlarmToggleButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enabled"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="mondayAlarmToggleButtonItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="mondayAlarmLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Monday Alarm:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="printTrackListButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Get List of Songs"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="printTrackListButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="playTuesdaySongButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Play Song"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="playTuesdaySongButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="tuesdayAlarmUpdateButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tuesdayAlarmUpdateButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="tuesdayAlarmSong">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="001"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tuesdayAlarmSongKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JFormattedTextField(f)"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tuesdayTrackLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=".mp3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tuesdayTrackLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="track"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="tuesdayAlarmTime">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="00:00"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tuesdayAlarmTimeKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JFormattedTextField(new SimpleDateFormat(&quot;HH:mm&quot;))"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="tuesdayAlarmToggleButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enabled"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="tuesdayAlarmToggleButtonItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tuesdayAlarmLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tuesday Alarm:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="playWednesdaySongButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Play Song"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="playWednesdaySongButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="wednesdayAlarmUpdateButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="wednesdayAlarmUpdateButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="wednesdayTrackLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=".mp3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="wednesdayAlarmSong">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="001"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="wednesdayAlarmSongKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JFormattedTextField(f)"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="wednesdayTrackLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="track"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="wednesdayAlarmTime">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="00:00"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="wednesdayAlarmTimeKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JFormattedTextField(new SimpleDateFormat(&quot;HH:mm&quot;))"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="wednesdayAlarmToggleButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enabled"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="wednesdayAlarmToggleButtonItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="wednesdayAlarmLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wednesday Alarm:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="playThursdaySongButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Play Song"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="playThursdaySongButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="thursdayAlarmUpdateButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="thursdayAlarmUpdateButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="thursdayTrackLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=".mp3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="thursdayAlarmSong">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="001"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="thursdayAlarmSongKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JFormattedTextField(f)"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="thursdayTrackLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="track"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="thursdayAlarmTime">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="00:00"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="thursdayAlarmTimeKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JFormattedTextField(new SimpleDateFormat(&quot;HH:mm&quot;))"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="thursdayAlarmToggleButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enabled"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="thursdayAlarmToggleButtonItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="thursdayAlarmLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Thursday Alarm:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="playFridaySongButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Play Song"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="playFridaySongButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="fridayAlarmUpdateButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fridayAlarmUpdateButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="fridayTrackLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=".mp3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="fridayAlarmSong">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="001"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="fridayAlarmSongKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JFormattedTextField(f)"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="fridayTrackLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="track"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="fridayAlarmTime">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="00:00"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="fridayAlarmTimeKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JFormattedTextField(new SimpleDateFormat(&quot;HH:mm&quot;))"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="fridayAlarmToggleButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enabled"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="fridayAlarmToggleButtonItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="fridayAlarmLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Friday Alarm:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="saturdayAlarmLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Saturday Alarm:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="saturdayAlarmToggleButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enabled"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="saturdayAlarmToggleButtonItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="saturdayAlarmTime">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="00:00"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="saturdayAlarmTimeKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JFormattedTextField(new SimpleDateFormat(&quot;HH:mm&quot;))"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="saturdayTrackLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="track"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="saturdayAlarmSong">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="001"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="saturdayAlarmSongKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JFormattedTextField(f)"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="saturdayTrackLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=".mp3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="saturdayAlarmUpdateButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saturdayAlarmUpdateButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="playSaturdaySongButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Play Song"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="playSaturdaySongButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="synchronizeTimeButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Synchronize Time"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="synchronizeTimeButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="printCurrentDataButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Get Current Data"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="printCurrentDataButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
